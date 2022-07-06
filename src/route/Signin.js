@@ -1,10 +1,10 @@
 import React from "react"
-import Signin from "../component/Signin"
+import Root from "../component/Root"
 
 export default function Signin(){
     return(
         <div>
-            <Signin/>
+            <Root/>
         </div>
     )
 }
