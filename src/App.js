@@ -1,5 +1,5 @@
 import React from "react"
-import Signin from "../route/Signin"
+import Write from "./route/ Write"
 import {Routes,Route} from 'react-router-dom'
 
 
@@ -8,7 +8,7 @@ export default function App (){
   <div>
   
   <Routes>
-<Route exact path="/" element={<Signin/>} />
+<Route exact path="/" element={< Write/>} />
 </Routes>
 
 </div>
